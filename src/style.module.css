@@ -24,15 +24,20 @@ h1{
 
 .cell{
     text-align:center;
-    line-height:100px;
+    line-height:80px;
     border:1px solid #c3c2d2;
     cursor:pointer;
     background-color:#252428;
     transition-duration:0.2s;
-    font-size:80px;
+    font-size:150px;
+    text-shadow:0px 0px 10px white;
 }
 
 .cell:hover{
     background-color:#1d1c20;
+}
+
+.cell:active{
+    background-color:#ffa60052;
 }
 
