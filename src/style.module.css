@@ -1,0 +1,36 @@
+*{
+    background-color:#1b1a2d;
+    color:white;
+}
+
+h1{
+    text-align:center;
+}
+
+.outside{
+    display:grid;
+    justify-content:center;
+}
+
+.field{
+    width:300px;
+    height:300px;
+    border:3px solid #c3c2d2;
+    display:grid;
+    grid-template-columns:repeat(3, 100px);
+    grid-template-rows:repeat(3, 100px);
+}
+
+.cell{
+    text-align:center;
+    line-height:100px;
+    border:1px solid #c3c2d2;
+    cursor:pointer;
+    background-color:#252428;
+    transition-duration:0.2s;
+}
+
+.cell:hover{
+    background-color:#1d1c20;
+}
+
