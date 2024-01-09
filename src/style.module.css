@@ -1,6 +1,7 @@
 *{
     background-color:#1b1a2d;
     color:white;
+    font-family:monospace;
 }
 
 h1{
@@ -28,6 +29,7 @@ h1{
     cursor:pointer;
     background-color:#252428;
     transition-duration:0.2s;
+    font-size:80px;
 }
 
 .cell:hover{
