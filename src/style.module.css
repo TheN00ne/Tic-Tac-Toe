@@ -9,8 +9,10 @@ h1{
 }
 
 .outside{
+    height:80vh;
     display:grid;
     justify-content:center;
+    align-content:center;
 }
 
 .field{
@@ -27,7 +29,6 @@ h1{
     line-height:80px;
     border:1px solid #c3c2d2;
     cursor:pointer;
-    background-color:#252428;
     transition-duration:0.2s;
     font-size:150px;
     text-shadow:0px 0px 10px white;
